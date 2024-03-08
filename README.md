@@ -11,6 +11,10 @@ Module 6 Challenge
 
   * When the game ends, it should display their score and give the user the ability to save their initials and their score.
 
+  ## Deployed URL:
+  https://shazna8181.github.io/Code-Quiz/
+  
+
     ![Code Quiz](https://github.com/shazna8181/Code-Quiz/assets/152108800/11d47686-4200-4e5f-a248-e41dbba9c7af)
 
 ![Quiz HighScores](https://github.com/shazna8181/Code-Quiz/assets/152108800/eb2ca612-39ab-4f6c-ba12-568ea58bfed9)
