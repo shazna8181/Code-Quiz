@@ -2,6 +2,8 @@ let quizNumber = 0;
 let seconds = 75;
 let timerInterval;
 let alertDisplay;
+let sfxCorrect = new Audio("assets/sfx/correct.wav");
+let sfxIncorrect = new Audio("assets/sfx/incorrect.wav");
 
 const timer = document.getElementById('time');
 
@@ -20,9 +22,11 @@ function alertDisplayMsg(type){
     if(type === "correct"){
         document.getElementById('correct').hidden = false;
         document.getElementById('wrong').hidden = true;
+        sfxCorrect.play(); //makes sound
     } else {
         document.getElementById('correct').hidden = true;
         document.getElementById('wrong').hidden = false;
+        sfxIncorrect.play(); //makes sound
     }
     document.getElementById('feedback').hidden = false; 
     alertDisplay = setTimeout(function () {

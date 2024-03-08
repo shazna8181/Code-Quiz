@@ -8,7 +8,7 @@ const quizArray = [
     {
         question: "What are variables used for in JavaScript Programs?",
         answers: ["Storing numbers, dates, or other values", "Varying randomly", "Causing high-school algebra flashbacks", "None of the above"],
-        correctAnswer: 0
+        correctAnswer: 1
     },
     {
         question: "Which method adds a new item to the end of an array and returns the new length?",
